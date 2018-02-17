@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { CompaniesComponent } from './companies/companies.component';
 import { CompanyComponent } from './companies/company/company.component';
+import { CompanyDetailComponent } from './companies/company/company-detail/company-detail.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { CompanyComponent } from './companies/company/company.component';
     HeaderComponent,
     HomeComponent,
     CompaniesComponent,
-    CompanyComponent
+    CompanyComponent,
+    CompanyDetailComponent
   ],
   imports: [
     BrowserModule,
