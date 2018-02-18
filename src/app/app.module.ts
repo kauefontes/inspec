@@ -12,6 +12,9 @@ import { CompanyDetailComponent } from './companies/company/company-detail/compa
 import { ProfileComponent } from './profile/profile.component';
 import { PlacesComponent } from './places/places.component';
 import { PlaceDetailComponent } from './place-detail/place-detail.component';
+import { OccurrencesComponent } from './occurrences/occurrences.component';
+import { OccurrenceComponent } from './occurrences/occurrence/occurrence.component';
+import { OccurrenceDetailComponent } from './occurrences/occurrence/occurrence-detail/occurrence-detail.component';
 
 
 @NgModule({
@@ -24,7 +27,10 @@ import { PlaceDetailComponent } from './place-detail/place-detail.component';
     CompanyDetailComponent,
     ProfileComponent,
     PlacesComponent,
-    PlaceDetailComponent
+    PlaceDetailComponent,
+    OccurrencesComponent,
+    OccurrenceComponent,
+    OccurrenceDetailComponent
   ],
   imports: [
     BrowserModule,
