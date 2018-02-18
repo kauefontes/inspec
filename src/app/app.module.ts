@@ -15,6 +15,8 @@ import { PlaceDetailComponent } from './place-detail/place-detail.component';
 import { OccurrencesComponent } from './occurrences/occurrences.component';
 import { OccurrenceComponent } from './occurrences/occurrence/occurrence.component';
 import { OccurrenceDetailComponent } from './occurrences/occurrence/occurrence-detail/occurrence-detail.component';
+import { LoginPageComponent } from './login-page/login-page.component';
+import { SignupPageComponent } from './signup-page/signup-page.component';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { OccurrenceDetailComponent } from './occurrences/occurrence/occurrence-d
     PlaceDetailComponent,
     OccurrencesComponent,
     OccurrenceComponent,
-    OccurrenceDetailComponent
+    OccurrenceDetailComponent,
+    LoginPageComponent,
+    SignupPageComponent
   ],
   imports: [
     BrowserModule,
