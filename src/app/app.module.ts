@@ -10,6 +10,8 @@ import { CompaniesComponent } from './companies/companies.component';
 import { CompanyComponent } from './companies/company/company.component';
 import { CompanyDetailComponent } from './companies/company/company-detail/company-detail.component';
 import { ProfileComponent } from './profile/profile.component';
+import { PlacesComponent } from './places/places.component';
+import { PlaceDetailComponent } from './place-detail/place-detail.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { ProfileComponent } from './profile/profile.component';
     CompaniesComponent,
     CompanyComponent,
     CompanyDetailComponent,
-    ProfileComponent
+    ProfileComponent,
+    PlacesComponent,
+    PlaceDetailComponent
   ],
   imports: [
     BrowserModule,
